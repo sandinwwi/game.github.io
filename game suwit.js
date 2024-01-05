@@ -3,6 +3,7 @@ while ( tanya ) {
         // menangkap pilihan pemain
         var p = prompt ('Pilih : gajah, semut, orang');
 
+        
         // menangkap pilihan comp
         // membangkitkan bilangan random
         var comp = Math.random ();
@@ -16,6 +17,7 @@ while ( tanya ) {
         }
 
         var hasil = '';
+
         // menentukan rules
         if ( p == comp) {
         hasil = 'SERI!';
